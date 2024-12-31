@@ -17,4 +17,6 @@ To install packages, run `npm install`.
 5. Stop the backend, uncomment the line `{ id: "4", content: "Item 4" }` in `backend.js`, and start the backend again.
 6. Go to `http://localhost:3000/items/4`. **Check if the error 404 disappears after the revalidation time**.
 
-## How to run
+## Check results
+
+The page gets revalidated after the specified time, and the error 404 disappears.
